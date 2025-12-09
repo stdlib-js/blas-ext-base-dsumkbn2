@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-26)
+## Unreleased (2025-12-09)
 
 <section class="features">
 
@@ -16,12 +16,26 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`28855c3`](https://github.com/stdlib-js/stdlib/commit/28855c372581a6a7f175f5be6ce1c55a865b807a) - address pointer increment bug
+-   [`00d8714`](https://github.com/stdlib-js/stdlib/commit/00d87144e980744517f6fa456aef512e3940c4fd) - update implementation to preserve signed zeros
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`9df0e8d`](https://github.com/stdlib-js/stdlib/commit/9df0e8d07d2f5893547b8647bf89abf85671eb3a) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dsumkbn2` [(#8909)](https://github.com/stdlib-js/stdlib/pull/8909) _(by Krishna Awasthi)_
+-   [`28855c3`](https://github.com/stdlib-js/stdlib/commit/28855c372581a6a7f175f5be6ce1c55a865b807a) - **fix:** address pointer increment bug _(by Athan Reines)_
+-   [`00d8714`](https://github.com/stdlib-js/stdlib/commit/00d87144e980744517f6fa456aef512e3940c4fd) - **fix:** update implementation to preserve signed zeros _(by Athan Reines)_
 -   [`9f85b5d`](https://github.com/stdlib-js/stdlib/commit/9f85b5d90cb6fcaf052116cd06aa4a693757f0ec) - **test:** fix description _(by Philipp Burckhardt)_
 -   [`1a5f29d`](https://github.com/stdlib-js/stdlib/commit/1a5f29d7d9e481f34854dcbf00339d9ab8e85057) - **test:** add zeros tests _(by Athan Reines)_
 -   [`94c28dd`](https://github.com/stdlib-js/stdlib/commit/94c28dd762780658f66507d0912e35bdcbcff573) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dsumkbn2` [(#4316)](https://github.com/stdlib-js/stdlib/pull/4316) _(by Muhammad Haris, Athan Reines)_
@@ -37,9 +51,10 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Krishna Awasthi
 -   Muhammad Haris
 -   Philipp Burckhardt
 
