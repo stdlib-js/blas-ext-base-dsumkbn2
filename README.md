@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dsumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsumkbn2@esm/index.mjs';
+import dsumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsumkbn2@v0.3.0-esm/index.mjs';
 ```
 
 #### dsumkbn2( N, x, strideX )
@@ -150,7 +150,7 @@ var v = dsumkbn2.ndarray( 4, x, 2, 1 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import dsumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsumkbn2@esm/index.mjs';
+import dsumkbn2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsumkbn2@v0.3.0-esm/index.mjs';
 
 var x = discreteUniform( 10, -100, 100, {
     'dtype': 'float64'
