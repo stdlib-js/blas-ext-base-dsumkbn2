@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-25)
+## Unreleased (2026-03-04)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`3c77fef`](https://github.com/stdlib-js/stdlib/commit/3c77fefb397dfb4eee466d40c2aeedbc2196b06f) - **bench:** refactor to use string interpolation in blas/ext/base/dsumkbn2 [(#10687)](https://github.com/stdlib-js/stdlib/pull/10687) _(by Kamal Singh Rautela)_
 -   [`6080e64`](https://github.com/stdlib-js/stdlib/commit/6080e640d14b68905c598330ebcb6bb8e415ddd0) - **style:** remove whitespace inside `API_SUFFIX` macro calls _(by Philipp Burckhardt)_
 
 </details>
@@ -24,8 +25,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Kamal Singh Rautela
 -   Philipp Burckhardt
 
 </section>
